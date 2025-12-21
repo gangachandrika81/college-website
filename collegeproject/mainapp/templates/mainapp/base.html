@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Task</title>
+    <link rel="stylesheet" href="{% static 'mainapp/images/style.css' %}">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="/colleges/">Colleges</a>
+    <a href="/infrastructure/">infrastructure</a>
+    <a href="/placements/">placements</a>
+    
+</div>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

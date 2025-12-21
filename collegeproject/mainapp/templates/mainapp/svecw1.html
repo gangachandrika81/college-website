@@ -1,0 +1,49 @@
+
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Sri Vishnu Engineering College for Women (SVECW)</h2>
+
+<div style="display:flex; gap:25px; align-items:flex-start;">
+
+    <!-- Image -->
+    <img src="{% static 'mainapp/images/svecw1.jpg' %}" width="800" height="500">
+
+    <!-- Content -->
+    <div>
+        <p>
+            <strong>SVECW (Shri Vishnu Engineering College for Women)</strong> in Bhimavaram, Andhra Pradesh, 
+            is a leading engineering institution established in 2001 for women, focusing on rural 
+            empowerment through quality technical education (B.Tech, M.Tech, MBA, Ph.D.). Known for strong placements, 
+            innovative labs, and green campus initiatives, it offers comprehensive facilities like hostels, libraries, 
+            sports, and medical support, aiming for academic excellence and self-reliance among its students, affiliated with 
+            JNTUK and accredited by NAAC/NBA.
+        </p>
+        
+        <h3>Key Aspects:</h3>
+        <ul>
+            
+            <li><strong>Focus:</strong> Exclusively for women, with a strong emphasis on empowering rural students.</li>
+            <li><strong>Location:</strong> Bhimavaram, Andhra Pradesh, on a 100-acre green campus.</li>
+            <li><strong>Courses:</strong> B.Tech, M.Tech, MBA, Ph.D. in various streams.</li>
+            <li><strong>Affiliation & Accreditation:</strong> Affiliated with JNTUK, Kakinada; accredited by NAAC (A+) and NBA.</li>
+            <li><strong>Placements:</strong> Consistently high placement rates, with students in major companies like Amazon, Flipkart, Honda.</li>
+            <li><strong>Infrastructure:</strong> Well-equipped labs (e.g., TI DSP Lab, Assistive Tech Lab), libraries, hostels, sports complexes, 
+                and eco-friendly practices (solar, rainwater harvesting).</li>
+            <li><strong>Vision:</strong> To transform society through women's education, community empowerment, and environmental protection. </li>
+
+        </ul>
+        <h3>Vision & Mission:</h3>
+        <p>To transform society through women's empowerment, community upliftment, and environmental care, achieving academic excellence with 
+            innovative learning and instilling strong values. </p>
+
+        <p>In essence, SVECW stands out as a leading women's engineering college in India, known for its excellent academic environment, strong
+             technical focus, and successful placement records, especially for rural women. </p>
+
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2 style="text-align:center;">Infrastructure</h2>
+
+<div style="display:flex; flex-wrap:wrap; gap:30px; justify-content:center; margin-top:30px;">
+
+    {% for item in infra %}
+    <div style="text-align:center; width:450px;">
+
+        <img src="{% static item.image %}" width="450" height="280" style="border-radius:10px;">
+        <h3>{{ item.name }}</h3>
+
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
